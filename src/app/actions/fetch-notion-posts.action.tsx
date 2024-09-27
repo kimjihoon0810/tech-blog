@@ -15,7 +15,5 @@ export async function getPosts() {
     database_id: notionDatabaseId,
   });
 
-  console.log(query.results[0], { query });
-
   return query.results;
 }
