@@ -32,7 +32,7 @@ export default function RootLayout({
                 width={40}
                 height={40}
               />
-              <h1>Jhun's tech-blog</h1>
+              <h1>{"Jhun's tech-blog"}</h1>
             </Link>
           </div>
         </header>
